@@ -1,20 +1,17 @@
-# Move these functions to a seperate python file
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-
-def plot_histograms(df: pd.DataFrame):
+def plot_histograms(df: pd.DataFrame) -> None:
     """Plot histograms for all numeric features."""
     df.hist(bins=15, figsize=(10, 8))
     plt.suptitle("Histograms of Features")
     plt.show()
 
 
-def plot_boxplots(df: pd.DataFrame):
+def plot_boxplots(df: pd.DataFrame) -> None:
     """Plot compact boxplots for numeric features in a 3x3 grid."""
     numeric_columns = df.select_dtypes(include=[np.number]).columns
     n = len(numeric_columns)
@@ -37,15 +34,14 @@ def plot_boxplots(df: pd.DataFrame):
     plt.show()
 
 
-def plot_pairplot(df: pd.DataFrame):
+def plot_pairplot(df: pd.DataFrame) -> None:
     """Plot pairplot to visualize relationships between features."""
     sns.pairplot(df)
     plt.suptitle("Pairplot of Features")
     plt.show()
 
 
-
-def plot_correlation_heatmap(df: pd.DataFrame):
+def plot_correlation_heatmap(df: pd.DataFrame) -> None:
     """Plot a correlation heatmap of the features."""
     plt.figure(figsize=(8, 6))
     corr_matrix = df.corr()
@@ -53,3 +49,18 @@ def plot_correlation_heatmap(df: pd.DataFrame):
     plt.title("Correlation Heatmap")
     plt.show()
 
+
+def plot_barplot(df: pd.DataFrame, x_col: str, y_col: str) -> None:
+    """Plot a bar plot of a categorical feature against a numeric feature."""
+    plt.figure(figsize=(10, 6))
+    sns.barplot(x=x_col, y=y_col, data=df)
+    plt.title('Bar Plot of ' + y_col + ' vs ' + x_col)
+    plt.show()
+
+
+def plot_countplot(df: pd.DataFrame, x_col: str) -> None:
+    """Plot a count plot of a categorical feature."""
+    plt.figure(figsize=(10, 6))
+    sns.countplot(x=x_col, data=df)
+    plt.title('Count Plot for ' + x_col)
+    plt.show()
