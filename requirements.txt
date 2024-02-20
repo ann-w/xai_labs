@@ -10,8 +10,9 @@ widgetsnbextension==4.0.9
 torch==2.1.1
 transformers==4.37.2
 nlp==0.4.0
-ecco
 torchvision
 Pillow
 opencv-python
 pycocotools
+inseq
+bertviz
