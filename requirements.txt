@@ -14,3 +14,4 @@ ecco
 torchvision
 Pillow
 opencv-python
+pycocotools
