@@ -1,15 +1,12 @@
 # Explainable AI Labs
 
-This repository contains several labs on Explainable AI (XAI). 
+This is the repository for the Explainable AI (XAI) lab for the AI Learning day.
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Labs/Notebooks](#labsnotebooks)
-5. [Contributing](#contributing)
-6. [License](#license)
+3. [Intructions](#instructions)
 
 ## Introduction
 
@@ -17,22 +14,9 @@ Explainable AI (XAI) focuses on the transparency and understandability of AI mod
 
 ## Installation
 
-Provide instructions on how to install and setup the environment to run these labs/notebooks.
+TODO: Use poetry 
 
-TODO: try to arrange preconfigured environments
 
-## Usage
+## Instructions
 
-Explain how to use the labs/notebooks. Include any necessary commands, scripts, or tools.
-
-## Labs/Notebooks
-
-Provide a list of the labs/notebooks included in this repository with a brief description of each.
-
-## Contributing
-
-If you're open to contributions, explain how others can contribute to this project.
-
-## License
-
-Include information about the license under which this project is distributed.
+TODO: Instructions for the teams here. 
