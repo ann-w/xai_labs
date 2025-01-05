@@ -2,13 +2,7 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Instructions to run on Azure](#instructions-to-run-on-azure)
-    - [Clone project](#clone-project)
-    - [Go to workspace](#go-to-workspace)
-    - [Create Compute](#create-compute)
-    - [Create conda environment + Kernel](#create-conda-environment--kernel)
-    - [Run notebook](#run-notebook)
-3. [Instructions to run locally](#instructions-to-run-locally)
+3. [Instructions](#instructions-to-run-locally)
     - [Prerequisites](#prerequisites)
     - [Create conda environment + Kernel](#create-conda-environment--kernel-1)
     - [Run notebook](#run-notebook-1)
@@ -17,6 +11,7 @@
 
 Explainable AI (XAI) focuses on the transparency and understandability of AI model decisions, fostering trust among users. By making complex AI processes clear and comprehensible, XAI addresses the need for fairness, ethical assurance, and regulatory compliance, particularly in sensitive domains. In this XAI lab, you will experiment with different XAI methods on tabular, image and text data.
 
+## Instructions
 
 **Clone project**
 1. `git clone git@github.com:ann-w/xai_labs.git` or download as zip (code > download ZIP)
