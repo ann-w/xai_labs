@@ -16,7 +16,7 @@ Explainable AI (XAI) focuses on the transparency and understandability of AI mod
 **Clone project**
 1. `git clone git@github.com:ann-w/xai_labs.git` or download as zip (code > download ZIP)
 
-### Prerequisites
+**Prerequisites**
 - Anaconda
 
 **Create conda environment + Kernel**
