@@ -45,9 +45,9 @@ Goodluck!
 This tutorial is based on the documentation and information provided by the following resources.
 
 - [Captum](https://captum.ai/tutorials/)
-- [Lime]()
-- [Shap]()
-- [inseq]()
+- [Lime](https://github.com/marcotcr/lime)
+- [Shap](https://github.com/shap/shap)
+- [inseq](https://github.com/inseq-team/inseq)
 - [Explainable AI: A brief survey on history, research areas, approaches and challenges (Xu et al., 2019)](https://www.researchgate.net/profile/Feiyu-Xu/publication/336131051_Explainable_AI_A_Brief_Survey_on_History_Research_Areas_Approaches_and_Challenges/links/5e2b496f92851c3aadd7bf08/Explainable-AI-A-Brief-Survey-on-History-Research-Areas-Approaches-and-Challenges.pdf)
 - [Explainability for large language models: A survey (Zhao et al., 2023)](https://dl.acm.org/doi/pdf/10.1145/3639372)
 
